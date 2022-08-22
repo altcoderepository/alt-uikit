@@ -1,0 +1,39 @@
+{
+  "name": "alt-uikit",
+  "version": "0.0.1",
+  "description": "Набор react-компонентов для построения UI",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/altcoderepository/alt-uikit.git"
+  },
+  "keywords": [
+    "react",
+    "design-system",
+    "ui-kit"
+  ],
+  "author": "Mokrov Vladimir <vovkamokroff@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/altcoderepository/alt-uikit/issues"
+  },
+  "homepage": "https://github.com/altcoderepository/alt-uikit#readme",
+  "prettier": "@alt-code/linters-config/prettierrc.js",
+  "dependencies": {
+    "@alt-code/linters-config": "^1.0.1",
+    "@alt-code/webpack-config": "^1.0.4",
+    "cross-env": "^7.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "eslint": "^8.22.0",
+    "prettier": "^2.7.1"
+  }
+}
