@@ -1,5 +1,10 @@
-import { SizeValues } from '../styles/configs';
-
 export interface ParagraphProps {
-  size: SizeValues;
+  children: string;
+  color: string;
+  size: string;
+}
+
+export interface ParagraphStyleProps {
+  size: string;
+  color: string;
 }
