@@ -1,6 +1,6 @@
 {
   "name": "@alt-code/alt-uikit",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Набор react-компонентов для построения UI",
   "main": "./dist/index.js",
   "scripts": {
