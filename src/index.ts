@@ -1,3 +1,3 @@
-import { Paragraph } from './Paragraph/Paragraph';
+import { Paragraph } from './components/Paragraph/Paragraph';
 
 export { Paragraph };
